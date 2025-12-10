@@ -1,0 +1,4 @@
+.part1 {
+    background-color: var(--color-theme1);
+    padding: 30px 0; /* bara top/bottom */
+}

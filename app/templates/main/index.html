@@ -1,0 +1,68 @@
+{% block page_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/pages/index.css') }}">
+{% endblock %}
+
+{% extends "base.html" %}
+
+{% block title %}Hem{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div class="container hero-inner">
+        <div class="hero-text">
+            <p class="hero-kicker">Nordavix</p>
+            <h1>Skapa struktur, klarhet och fart i dina projekt.</h1>
+
+            <p class="hero-lead">
+                En plats där du kan samla idéer, planer och utveckling –
+                utan att drunkna i brus. Nordavix hjälper dig att hålla fokus
+                på det som faktiskt spelar roll.
+            </p>
+
+            <div class="hero-actions">
+                <a href="{{ url_for('main.services') }}" class="btn btn-primary">
+                    Se vad vi erbjuder
+                </a>
+                <a href="{{ url_for('main.about') }}" class="btn btn-ghost">
+                    Läs mer om oss
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="hero-card">
+                <h2>Snabb överblick</h2>
+                <p>
+                    Här kan du kort lyfta fram något viktigt – en tjänst,
+                    ett projekt, eller vad som gör Nordavix lite annorlunda.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="part1">
+    <div class="container">
+        <div class="cards-3">
+
+            <div class="cards-3__item">
+                <h3>Rubrik 1</h3>
+                <p>Kort text här.</p>
+            </div>
+
+            <div class="cards-3__item">
+                <h3>Rubrik 2</h3>
+                <p>Kort text här.</p>
+            </div>
+
+            <div class="cards-3__item">
+                <h3>Rubrik 3</h3>
+                <p>Kort text här.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+{% endblock %}

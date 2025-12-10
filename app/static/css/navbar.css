@@ -1,0 +1,74 @@
+.siteheader {
+  display: flex;
+  justify-content: space-between;
+  /* Logo to the left - Links to the right */
+  align-items: center;
+  /* Vertically center items in navbar*/
+  padding: 3px 20px 3px 3px;
+  background-color: var(--color-theme3);
+}
+
+.siteheader a {
+  text-decoration: none;
+  /* Remove underline */
+  font-family: "Special Elite", system-ui, sans-serif;
+  font-weight: bold;
+  color: var(--color-beige1);
+  /* Font/size/color for links */
+}
+
+.logo a {
+  font-size: 2rem;
+  letter-spacing: 0.25rem;
+  display: flex;
+  align-items: center;
+  color: var(--color-theme1);
+  gap: 10px;
+}
+
+.logo a:hover {
+  color: var(--color-beige1);
+}
+
+.siteheader img {
+  height: 60px;
+  /* Height of the logo */
+}
+
+.navbar {
+  position: relative;
+  /* Dropdown uses absolute positioning */
+}
+
+.navlinks {
+  list-style: none;
+  /* Remove bullets */
+  display: flex;
+  /* Links horizontally lined up */
+  gap: 20px;
+  /* Space between links */
+}
+
+
+.siteheader nav a:hover {
+  color: var(--color-theme1);
+  /* Change the link color when hovered */
+}
+
+/* Hamburger button */
+.menu-toggle {
+  display: none;
+  /* Hidden by default */
+  background: none;
+  /* No background */
+  border: none;
+  /* No border */
+  font-size: 2em;
+  /* Bigger font for hamburger icon */
+  color: var(--color-text-light3);
+  /* Same color as links */
+  cursor: pointer;
+  /* Pointer cursor on hover */
+  font-family: system-ui, "Segoe UI", Arial, sans-serif;
+  /* Hamburger button not working in font chewy */
+}

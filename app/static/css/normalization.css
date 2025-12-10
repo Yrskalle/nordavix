@@ -1,0 +1,78 @@
+/* ----------------------------------------------------------
+   Modern Normalize (lightweight version)
+   Custom tailored for modern browsers
+   ---------------------------------------------------------- */
+
+/* 1. Remove default margin and provide smooth base */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Improve text rendering */
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+/* 3. Make body full-height and predictable */
+body {
+    min-height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #ffffff;
+    color: #222;
+}
+
+/* 4. Images and media scale nicely */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* 5. Make form elements inherit fonts */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* 6. Remove ugly button borders */
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+/* 7. Links behave consistently */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* 8. Remove default list styling */
+ul,
+ol {
+    list-style: none;
+}
+
+/* 9. Table cleanup */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* 10. Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}

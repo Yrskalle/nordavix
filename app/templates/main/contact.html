@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Kontakt{% endblock %}
+
+{% block content %}
+<h1>Kontakta oss</h1>
+
+<p>
+Har du frågor, idéer eller feedback? Hör gärna av dig!
+</p>
+
+<form method="post" action="#">
+    <label>Namn</label><br>
+    <input type="text" name="name"><br><br>
+
+    <label>E-post</label><br>
+    <input type="email" name="email"><br><br>
+
+    <label>Meddelande</label><br>
+    <textarea name="message"></textarea><br><br>
+
+    <button type="submit" class="btn-primary">Skicka</button>
+</form>
+{% endblock %}

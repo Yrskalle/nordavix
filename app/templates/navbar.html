@@ -1,0 +1,17 @@
+<header class="siteheader">
+  <div class="logo">
+    <a href="{{ url_for('main.index') }}">
+      <img src="{{ url_for('static', filename='img/logo.png') }}" alt="Logotyp">
+      <h4>NORDAVIX</h4>
+    </a>
+  </div>
+  <nav class="navbar">
+    <button class="menu-toggle" id="menu-toggle" type="button">&#9776;</button>
+    <ul class="navlinks" id="navlinks">
+        <li><a href="{{ url_for('main.index') }}">HEM</a></li>
+        <li><a href="{{ url_for('main.services') }}">TJÄNSTER</a></li>
+        <li><a href="{{ url_for('main.about') }}">OM OSS</a></li>
+        <li><a href="{{ url_for('main.contact') }}">KONTAKT</a></li>
+    </ul>
+  </nav>
+</header>
