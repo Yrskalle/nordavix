@@ -1,16 +1,86 @@
+{% block page_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/pages/about.css') }}">
+{% endblock %}
+
 {% extends "base.html" %}
 
-{% block title %}Om oss{% endblock %}
+{% block title %}Nordavix - Om oss{% endblock %}
 
 {% block content %}
-<h1>Om Flight Logbook</h1>
-<p>
-Flight Logbook föddes ur ett riktigt behov: att göra loggboksföring
-enkel, trygg och något man faktiskt slipper oroa sig för.
-</p>
+<section class="team page-section">
 
-<p>
-Byggt av en aktiv pilot för andra piloter — med fokus på tydlighet,
-säkerhet och användarvänlighet.
-</p>
+    <div class="page-header">
+        <h1>Om oss</h1>
+        <p>Vi brinner för tydlighet, struktur och smarta lösningar.</p>
+    </div>
+
+    <div class="team-wrapper">
+
+        <!-- Person 1 -->
+        <article class="team-card">
+            <div class="team-img-wrapper">
+                <img class="profile-image"
+                     src="{{ url_for('static', filename='img/person2.png') }}"
+                     alt="Anna">
+
+            </div>
+            <div class="img-overlay">
+                <div class="name">
+                    <p><strong>Anna</strong></p>
+                    <h1>PERSSON</h1>
+                </div>
+            </div>
+        </article>
+
+        <!-- Person 2 -->
+        <article class="team-card">
+            <div class="team-img-wrapper">
+                <img class="profile-image"
+                     src="{{ url_for('static', filename='img/person.png') }}"
+                     alt="Johan">
+
+            </div>
+            <div class="img-overlay">
+                <div class="name">
+                    <p><strong>Christian</strong></p>
+                    <h1>SCHULTZ</h1>
+                </div>
+            </div>
+        </article>
+
+        <!-- Person 3 -->
+        <article class="team-card">
+            <div class="team-img-wrapper">
+                <img class="profile-image"
+                     src="{{ url_for('static', filename='img/person4.png') }}"
+                     alt="Sara">
+
+            </div>
+            <div class="img-overlay">
+                <div class="name">
+                    <p><strong>Carl-Johan</strong></p>
+                    <h1>LILJEQUIST</h1>
+                </div>
+            </div>
+        </article>
+
+        <!-- Person 4 -->
+        <article class="team-card">
+            <div class="team-img-wrapper">
+                <img class="profile-image"
+                     src="{{ url_for('static', filename='img/person3.png') }}"
+                     alt="Peter">
+
+            </div>
+            <div class="img-overlay">
+                <div class="name">
+                    <p><strong>Sophie</strong></p>
+                    <h1>REINFELDT</h1>
+                </div>
+
+            </div>
+        </article>
+
+    </div>
+</section>
 {% endblock %}

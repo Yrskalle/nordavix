@@ -1,0 +1,25 @@
+.site-footer {
+    background: var(--color-theme3);
+    padding: 1rem 0;
+    border-top: 2px solid var(--color-accent1);
+    text-align: center;
+    color: var(--color-beige1);
+}
+
+.site-footer .footer-nav a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: var(--color-theme1);
+}
+
+.site-footer .footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.footer-nav {
+    margin-top: 1rem;
+}
+
+.site-footer a {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}

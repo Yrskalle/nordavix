@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     background: var(--color-beige1);
     color: var(--text-main);
 }
@@ -9,4 +8,40 @@ body {
     max-width: var(--container-width);
     margin: 0 auto;
     padding: 0 20px;
+}
+
+
+
+/* ---------------------------
+   Globala sidsektioner
+---------------------------- */
+
+/* Grundlayout för en sida/sektion */
+.page-section {
+
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--color-beige3);
+}
+
+/* Gemensam rubrik + introtext högst upp */
+.page-header {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 3rem;
+
+}
+
+.page-header h1,
+.page-header h2 {
+    margin-bottom: 0.5rem;
+}
+
+.page-header p {
+    margin: 0;
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    color: var(--color-theme2);
 }

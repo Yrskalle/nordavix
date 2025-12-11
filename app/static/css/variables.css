@@ -2,13 +2,13 @@
     --color-theme1: #4ca1b0;
     --color-theme2: #09576d;
     --color-theme3: #0b3b53;
-    --color-text-light1: #F2F2F2;
-    --color-text-light2: #E6E6E6;
-    --color-text-light3: #D9D9D9;
-    --color-beige1: #F2E8D8;
-    --color-primary: #09576d;
-    --color-primary-dark: #064151;
-    --text-main: #102028;
+
+    --color-beige1: #F2E8D8; /* din ljusa, nuvarande */
+    --color-beige2: #E2D8C8; /* lite mörkare */
+    --color-beige3: #D2C8B8; /* tydlig kontrast */
+    --color-beige4: #C2B8A8;
+    --color-accent1: #D95F45;
+    --color-accent2: #B04C4C;
 
     /* Layout */
     --container-width: 1100px;

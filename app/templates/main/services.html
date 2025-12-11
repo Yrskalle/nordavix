@@ -1,17 +1,69 @@
+{% block page_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/pages/services.css') }}">
+{% endblock %}
+
 {% extends "base.html" %}
 
-{% block title %}Tjänster{% endblock %}
+{% block title %}Nordavix - Tjänster{% endblock %}
 
 {% block content %}
-<h1>Våra tjänster</h1>
-<p>
-Här kan du beskriva vad du/ni erbjuder – till exempel konsulttjänster, utveckling,
-rådgivning, utbildning eller något helt annat.
-</p>
+<section class="page-section services">
+    <div class="page-header">
+        <h1>Våra tjänster</h1>
+        <p>
+            Vi hjälper dig att skapa tydlighet, struktur och fart i dina projekt –
+            från första idé till färdig lösning. Allt vi gör är skräddarsytt efter
+            din vardag, inte tvärtom.
+        </p>
+    </div>
 
-<ul>
-    <li>Tjänst 1 – kort beskrivning.</li>
-    <li>Tjänst 2 – kort beskrivning.</li>
-    <li>Tjänst 3 – kort beskrivning.</li>
-</ul>
+    <!-- Sektion 2: 3 kolumner -->
+    <div class="services-grid">
+        <article class="service-card">
+            <h3>Struktur & planering</h3>
+            <p>
+                Workshops, behovsanalys och konkret struktur i dina projekt.
+            </p>
+        </article>
+
+        <article class="service-card">
+            <h3>Digitala lösningar</h3>
+            <p>
+                Enkla, smarta verktyg och webbappar som stödjer ditt arbetssätt.
+            </p>
+        </article>
+
+        <article class="service-card">
+            <h3>Löpande stöd</h3>
+            <p>
+                Regelbundna avstämningar, förbättringar och justeringar.
+            </p>
+        </article>
+    </div>
+
+    <!-- Sektion 3: Avslut, 1 kolumn -->
+    <div class="services-outro">
+        <h2>Vad behöver du hjälp med just nu?</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum eu velit nec pulvinar.
+            Maecenas eget egestas massa. Curabitur at pellentesque elit. Cras posuere tincidunt est, vitae ullamcorper
+            risus blandit at. Nulla fermentum bibendum risus in suscipit. Sed placerat ultrices finibus. Pellentesque
+            euismod laoreet velit nec efficitur.
+
+        </p>
+        <p>
+            In quis scelerisque nibh, quis viverra mi. Suspendisse vel magna a ipsum
+            laoreet accumsan. Vestibulum eget accumsan nisi. Phasellus mollis elementum orci, vel rutrum risus dapibus
+            vel. Aenean et arcu quis lorem pharetra malesuada ut id odio. Maecenas tincidunt sed nulla eu scelerisque.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus at
+            lacinia massa.
+        </p>
+
+        <a href="{{ url_for('main.contact') }}" class="btn btn-primary">
+            Kontakta oss
+        </a>
+    </div>
+
+</section>
+
 {% endblock %}

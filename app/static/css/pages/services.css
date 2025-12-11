@@ -1,0 +1,74 @@
+/* ---------------------------
+   Services Section
+---------------------------- */
+
+
+.services {
+    background: var(--color-beige3);
+}
+/* Sektion 2 – 3 kolumner på större skärmar */
+.services-grid {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    background: var(--color-theme3);
+}
+
+.service-card {
+    background: var(--color-theme2);
+    border-radius: 14px;
+    padding: 22px 20px;
+    text-align: left;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    flex: 1 1 100%;
+    max-width: 100%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: center;
+}
+
+.service-card h3 {
+    margin-bottom: 0.5rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: var(--color-beige1);
+}
+
+.service-card p {
+    margin: 0;
+    color: white;
+    font-size: 0.98rem;
+    line-height: 1.6;
+}
+
+.service-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Sektion 3 – avslut, 1 kolumn centrerad */
+.services-outro {
+    text-align: center;
+    width: 100%;
+    background: var(--color-theme2);
+    padding: 2rem;
+}
+
+.services-outro h2 {
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.services-outro p {
+    margin-bottom: 1.2rem;
+    color: var(--color-beige1);
+}
+
+/* 3 kolumner från tablet och uppåt */
+@media (min-width: 768px) {
+    .service-card {
+        flex: 1 1 calc(33.333% - 24px);
+        max-width: calc(33.333% - 24px);
+    }
+}
