@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7583885e-06a5-490c-aea1-523137b4be8e" name="Changes" comment="First draft">
+    <list default="true" id="7583885e-06a5-490c-aea1-523137b4be8e" name="Changes" comment="Viewport">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/css/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/pages/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/css/pages/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +104,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1765428213071</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="Viewport">
+      <created>1765451780055</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1765451780055</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,7 +129,8 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="Requirements" />
     <MESSAGE value="First draft" />
-    <option name="LAST_COMMIT_MESSAGE" value="First draft" />
+    <MESSAGE value="Viewport" />
+    <option name="LAST_COMMIT_MESSAGE" value="Viewport" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

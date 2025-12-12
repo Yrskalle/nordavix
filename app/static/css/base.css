@@ -4,9 +4,13 @@ body {
     color: var(--text-main);
 }
 
-.container {
+.page {
     max-width: var(--container-width);
     margin: 0 auto;
+}
+
+.container {
+
     padding: 0 20px;
 }
 
