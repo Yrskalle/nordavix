@@ -67,7 +67,8 @@
     font-size: 1rem;
     max-width: 520px;
     margin-bottom: 26px;
-    color: rgba(0, 0, 0, 0.75);
+    color: var(--color-beige1);
+
 }
 
 .hero-actions {
@@ -114,7 +115,6 @@
     text-decoration: none;
     width: 180px;
     transition: transform 0.08s ease, box-shadow 0.12s ease, background 0.12s ease;
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     text-align: center;
 
 }
