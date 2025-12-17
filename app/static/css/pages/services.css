@@ -6,6 +6,12 @@
 .services {
     background: var(--color-beige3);
 }
+
+.page-section.services{
+    flex: 1;                 /* <-- nyckeln */
+
+}
+
 /* Sektion 2 – 3 kolumner på större skärmar */
 .services-grid {
     padding: 2rem;

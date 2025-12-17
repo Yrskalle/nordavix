@@ -2,3 +2,8 @@
     background-color: var(--color-theme1);
     padding: 30px 0; /* bara top/bottom */
 }
+
+.part1 {
+    flex: 1;
+    display: flex;
+}

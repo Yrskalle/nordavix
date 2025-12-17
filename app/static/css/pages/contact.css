@@ -1,4 +1,88 @@
-.contact {
-    padding: 2rem 1rem 2rem;
+/* ===========================
+   Kontakt – layout
+=========================== */
 
+.page-section {
+    flex: 1;
+    display: flex;
+
+    padding: 2rem 1rem;
+    width: 100%;
+    flex-direction: column;
+}
+
+
+.page-section.contact .page-header {
+    max-width: 100%;
+}
+
+
+/* ===========================
+   Kontaktformulär
+=========================== */
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    width: 100%;
+}
+
+
+/* Form groups */
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Labels */
+
+.form-group label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: var(--color-theme3);
+}
+
+
+/* Inputs + textarea */
+
+.form-group input,
+.form-group textarea {
+    padding: 12px 14px;
+    border-radius: 10px;
+    border: 1px solid var(--color-theme2);
+    background: #fff;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.25s ease;
+}
+
+
+/* Hover / Focus */
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: var(--color-theme3);
+    box-shadow: 0 0 0 3px rgba(0, 153, 255, 0.15);
+}
+
+
+/* Textarea */
+
+.form-group textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+
+/* ===========================
+   Mobiljustering
+=========================== */
+
+@media (max-width: 768px) {
+    .page-section.contact {
+        align-items: flex-start;   /* ingen vertikal centrering på mobil */
+    }
 }
